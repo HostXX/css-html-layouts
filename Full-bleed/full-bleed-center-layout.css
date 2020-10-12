@@ -25,3 +25,23 @@
   grid-column: 1 / 4;
 
 }
+
+/* this class is for setting a fixed element with for large screens */
+
+.pseudo-full-bleed {
+
+  width: 100%;
+
+  grid-column: 1 / 4;
+
+  /* constrain the width for very-large monitors */
+
+  max-width: 1500px;
+
+  /* center the element */
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
